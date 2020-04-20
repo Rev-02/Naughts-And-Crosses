@@ -13,5 +13,9 @@ namespace Naughts_And_Crosses
         {
             return "State = " + (StatesOfSquare)State;
         }
+        public string returnState()
+        {
+            return Convert.ToString((StatesOfSquare)State);
+        }
     }
 }

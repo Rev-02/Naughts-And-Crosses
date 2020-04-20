@@ -7,7 +7,7 @@ namespace Naughts_And_Crosses
         static void Main(string[] args)
         {
             Board bd = new Board();
-            board = bd.GenerateBoard();
+            bd.GenerateBoard();
             bd.DisplayBoard();
         }
     }
