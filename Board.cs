@@ -20,7 +20,9 @@ namespace Naughts_And_Crosses
 
         public void DisplayBoard()
         {
-            Console.WriteLine("")
+            Console.WriteLine("   ¦   ¦   ");
+            Console.WriteLine(" {0}  ¦ {1}  ¦ {2} ", sqaures[0].ToString(),sqaures[1].ToString(),sqaures[2].ToString());
+            Console.WriteLine("___¦___¦___");
         }
     }
 }
