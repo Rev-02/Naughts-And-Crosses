@@ -9,6 +9,9 @@ namespace Naughts_And_Crosses
             Board bd = new Board();
             bd.GenerateBoard();
             bd.DisplayBoard();
+            bd.UpdateBoard(5, 2);
+            bd.UpdateBoard(5, 1);
+            bd.DisplayBoard();
         }
     }
 }

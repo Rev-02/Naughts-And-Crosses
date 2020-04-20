@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Naughts_And_Crosses
 {
-    class Sqaure
+    class Square
     {
         public int State { get; set; } = 0;
         enum StatesOfSquare {_, X, O }
@@ -13,9 +13,10 @@ namespace Naughts_And_Crosses
         {
             return "State = " + (StatesOfSquare)State;
         }
-        public string returnState()
+        public string ReturnState()
         {
             return Convert.ToString((StatesOfSquare)State);
         }
     }
+
 }
