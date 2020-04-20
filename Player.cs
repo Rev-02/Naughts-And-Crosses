@@ -7,12 +7,10 @@ namespace Naughts_And_Crosses
     class Player
     {
         public string name { get; set; }
-        public char Piece { get; set; }
 
-        public Player(string pName, char piece)
+        public Player(string pName)
         {
             name = pName;
-            Piece = piece;
         }
     }
 }
