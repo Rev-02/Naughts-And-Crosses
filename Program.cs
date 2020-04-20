@@ -6,7 +6,8 @@ namespace Naughts_And_Crosses
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Board bd = new Board();
+            bd.GenerateBoard();
         }
     }
 }
